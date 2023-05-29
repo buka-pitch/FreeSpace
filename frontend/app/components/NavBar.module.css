@@ -1,0 +1,36 @@
+.container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    background-color: rgb(138, 95, 255);
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container>.logo>h1 {
+    font-size: medium;
+    color: white;
+}
+
+.Popbutton {
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid yellow;
+    box-shadow: grey 0px 3px 5px 0px;
+    font-style: oblique;
+    font-weight: bold;
+    cursor: pointer;
+    /* height: 40px; */
+}
+
+.Popbutton:hover {
+    padding: 22px;
+}
