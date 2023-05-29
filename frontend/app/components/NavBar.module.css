@@ -1,8 +1,6 @@
 .container {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
+    /* position: fixed; */
+    width: 100vw;
 
     background-color: rgb(138, 95, 255);
     height: 40px;
