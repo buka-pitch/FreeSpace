@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Fotter.module.css";
+
 function Fotter() {
   return (
     <div className={styles.container}>

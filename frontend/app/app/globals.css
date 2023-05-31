@@ -13,4 +13,5 @@ a {
 .main {
 
     min-height: 75vh;
+    width: 100vw;
 }
