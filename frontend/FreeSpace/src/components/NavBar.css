@@ -1,0 +1,77 @@
+.nav-container {
+  height: 40px;
+  background-color: darkviolet;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menubar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 50%;
+}
+
+.for-user {
+  display: flex;
+  /* gap: 1px; */
+  align-items: center;
+  /* margin: 5px; */
+  font-size: medium;
+}
+
+.Link {
+  text-decoration: none;
+  color: white;
+}
+
+.active a {
+  background-color: ghostwhite;
+  color: darkviolet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 40px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: small;
+}
+
+.for-guest {
+  display: flex;
+  align-items: center;
+  /* gap: 1px; */
+}
+
+.sitename {
+  margin-left: 10px;
+  width: 50px;
+  color: white;
+  font-size: larger;
+  text-decoration: none;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 40px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: grey;
+  cursor: pointer;
+}

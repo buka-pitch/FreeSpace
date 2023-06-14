@@ -1,0 +1,126 @@
+.chat-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: midnightblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.chat-sidebar-container {
+  color: white;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(8, 8, 58);
+}
+
+.chat-body-wrapper {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.chat-body-container {
+  /* color: red; */
+  width: 100%;
+  height: 70%;
+  border: 0.5px solid grey;
+  display: flex;
+  overflow: scroll;
+  flex-direction: column;
+  padding: 10px;
+  gap: 20px;
+}
+
+.message-field {
+  background-color: lightcyan;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-height: 20%;
+  min-height: 5%;
+  margin-top: 10px;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  left: 0;
+}
+
+.message-field-inputs {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.sendbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 15px;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(62, 240, 62);
+}
+
+#message {
+  margin: 0;
+  width: 100%;
+  /* height: 75%; */
+  min-height: 30;
+  max-height: 75%;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.chatbrowse-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message-box {
+  background-color: lightblue;
+  width: 150px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.reciver {
+  /* flex-direction: ; */
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.sender {
+  display: flex;
+  align-items: end;
+  justify-content: flex-end;
+}
+
+@media (min-width: 1250px) {
+  .chat-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .chat-body-container {
+    width: 80%;
+    height: 100%;
+  }
+
+  .chat-sidebar-container {
+    width: 20%;
+    height: 100%;
+  }
+}

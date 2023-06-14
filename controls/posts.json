@@ -1,0 +1,58 @@
+[
+  {
+    "_id": "6471b0412105e6340c06557e",
+    "title": "buka pitch",
+    "topic": "tech",
+    "description": "new one",
+    "likes": null,
+    "createdAt": "2023-05-27T07:22:48.256Z",
+    "comments": [],
+    "__v": 0
+  },
+  {
+    "_id": "6478dfdeedfa161e05cc3e11",
+    "title": "test version",
+    "description": "this is a test doc",
+    "likes": 100,
+    "createdAt": "2023-06-01T17:49:30.855Z",
+    "comments": [],
+    "__v": 0
+  },
+  {
+    "_id": "6478e08bedfa161e05cc3ed4",
+    "title": "test version",
+    "description": "this is a test doc",
+    "likes": 10,
+    "createdAt": "2023-06-01T17:49:30.855Z",
+    "comments": [],
+    "__v": 0
+  },
+  {
+    "_id": "6471b0412105e634dfgd0c06557e",
+    "title": "buka pitch",
+    "topic": "tech",
+    "description": "new one",
+    "likes": 1,
+    "createdAt": "2023-05-27T07:22:48.256Z",
+    "comments": [],
+    "__v": 0
+  },
+  {
+    "_id": "6478dfdeedfa1dfgd61e05cc3e11",
+    "title": "test version",
+    "description": "this is a test doc",
+    "likes": 10,
+    "createdAt": "2023-06-01T17:49:30.855Z",
+    "comments": [],
+    "__v": 0
+  },
+  {
+    "_id": "6478e08besdfsdfa161e05cc3ed4",
+    "title": "test version",
+    "description": "this is a test doc",
+    "likes": 13,
+    "createdAt": "2023-06-01T17:49:30.855Z",
+    "comments": [],
+    "__v": 0
+  }
+]

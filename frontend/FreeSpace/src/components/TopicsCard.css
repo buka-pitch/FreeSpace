@@ -1,0 +1,52 @@
+.topics{
+	width: max-content;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	justify-content: center;
+	gap: 20px;
+	animation: slideshow 100s ease-in-out 1s infinite;
+}
+
+.topics-screen{
+	width: 100vw;
+	overflow: hidden;
+	background-color: antiquewhite;
+
+}
+
+.tag-card{
+	background-color: silver;
+	border-radius: 15px;
+	padding: 10px 10px;
+	min-width: 70px;
+	height: 10px;
+	display: flex;
+	width: max-content;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	cursor: pointer;
+		box-shadow: olivedrab 0px 2px 5px 0px ;
+
+}
+.tag-card:hover{
+	background-color: ghostwhite;
+}
+
+@keyframes slideshow {
+	0%{
+		transform: translate(0px);
+	}
+
+	50%{
+		transform: translate(-1000px);
+	}
+	75%{
+		transform: translate(0px);
+	}
+	100%{
+		transform: translate(-1000px);
+	}
+}
